@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(to right, #fff8a6, #ffd19a, #fff)
+}
+
+.container-fluid{
+    width: 50%;
+    padding-top: 50px;
+    height: auto;
+}
+.form-control{
+    margin: 15px;
+    background-color: #b0deff;
+    padding: 10px;
+    border-radius: 10px;
+}
+ul{
+    list-style: none;
+    margin: 10px;
+
+}
+li{
+    padding: 5px;
+    background: #ffc5a1;
+    border-radius: 10px;
+    margin: 2px;
+    font-weight: bold;
+}

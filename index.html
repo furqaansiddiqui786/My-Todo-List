@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--  Bootstrap css  -->
+<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+<!--  custom styles  -->
+<link rel="stylesheet" href="css/styles.css">
+
+
+<title>Title</title>
+</head>
+
+
+<body>
+
+    <div class="container-fluid text-center">
+        <h1 class="blink">My Todo List</h1>
+        <input type="text" id="userInput" class="form-control" placeholder="Enter Your TODO" onkeydown="return searchKeyPress(event);">
+        <button class="btn btn-success" id="add">ADD TODO</button>
+        <button class="btn btn-danger" id="removeall">REMOVE ALL</button>
+
+        <ul id="list">
+            
+        </ul>
+        
+        
+        
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+
+<!-- custom js scripts-->
+<script src="scripts/Todo.js"></script>
+
+<!-- typeahead library-->
+<script src="scripts/typed.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
