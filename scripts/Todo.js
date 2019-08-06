@@ -1,7 +1,8 @@
 $(function(){
     $(".blink").typed({
         strings:["Enter your To-Do", "Deisgned by Furqaan Siddiqui", "My ToDo List"],
-        typeSpeed: 0
+        typeSpeed: 0,
+        loop : true
     });
 });
 
